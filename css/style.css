@@ -1,0 +1,59 @@
+body {
+  overflow: auto;
+  height: 10000px;
+  margin:0px;
+}
+@font-face {
+    font-family: coolAstroFont;
+    src: url(../css/Superdie.otf);
+}
+#skrollr-body {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+}
+#skrollr-body div {
+  overflow: hidden;
+  position: absolute;
+}
+.centered {
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0px;
+}
+#bgintro {
+  background: url('../images/bg/backgroundintro.png');
+  background-size: auto 100%;
+  background-repeat: repeat-x;
+  z-index: 8;
+}
+#bg1 {
+  background: url('../images/bg/background.png');
+  background-size: auto 100%;
+  background-repeat: repeat-x;
+  z-index: 7;
+}
+#coin {
+  background: url('../images/mis/coin.gif') no-repeat;
+  background-size: 35px 35px;
+  z-index: 9;
+}
+#text {
+  color: burlywood;
+  z-index: 10;
+  font-family: coolAstroFont;
+  font-size: 40px;
+}
+#bullet {
+  background: url('../images/Bullet/Hero Bullet A.png') no-repeat;
+  background-size: 30px 30px;
+  z-index: 11;
+}
+#introTitle {
+  color: red;
+  z-index: 10;
+  font-family: coolAstroFont;
+  font-size: 40px;
+}
