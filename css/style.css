@@ -23,6 +23,11 @@ body {
   right: 0;
   margin: 0px;
 }
+#bear {
+  background: url('../images/mis/Jetbear_Idle.gif') no-repeat;
+  background-size: 120px 120px;
+  z-index: 9;
+}
 #bgintro {
   background: url('../images/bg/backgroundintro.png');
   background-size: auto 100%;
@@ -46,14 +51,30 @@ body {
   font-family: coolAstroFont;
   font-size: 40px;
 }
-#bullet {
-  background: url('../images/Bullet/Hero Bullet A.png') no-repeat;
-  background-size: 30px 30px;
-  z-index: 11;
-}
 #introTitle {
   color: red;
   z-index: 10;
   font-family: coolAstroFont;
-  font-size: 40px;
+  font-size: 27px;
+}
+#introSign {
+  background: url('../images/bg/sign.png') no-repeat;
+  background-size: 400px 300px;
+  z-index: 9;
+}
+.blink_me {
+	color: red;
+	z-index: 10;
+	font-family: coolAstroFont;
+	font-size: 27px;
+}
+#bullet {
+  background: url('../images/mis/bullet.png') no-repeat;
+  background-size: 30px 30px;
+  z-index: 11;
+}
+#spartfish {
+	background:url('../images/mis/Spartafish_Idle.gif') no-repeat;
+	background-size: 120px 120px;
+	z-index: 12;
 }
