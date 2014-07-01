@@ -1,11 +1,18 @@
 body {
   overflow: auto;
-  height: 10000px;
+  height: 50000px;
   margin:0px;
 }
 @font-face {
     font-family: coolAstroFont;
     src: url(../css/Superdie.otf);
+}
+@font-face {
+  font-family: lobster;
+    src: url(../css/lobster-1.4.eot),
+         url(../css/lobster-1.4.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
 }
 #skrollr-body {
   width: 100%;
@@ -34,6 +41,22 @@ body {
   background-size: auto 100%;
   background-repeat: repeat-x;
   z-index: 7;
+}
+#andrew {
+  background: url('../images/mis/andrew.png') no-repeat;
+  background-size: 550px 100px;
+  z-index: 9;
+}
+#banner {
+  background: url('../images/mis/banner.png') no-repeat;
+  background-size: 330px 75px;
+  z-index: 9;
+}
+#bannertitle {
+  z-index: 10;
+  font-family: lobster;
+  font-size: 30px;
+  color: white;
 }
 #bear {
   background: url('../images/mis/Jetbear_Idle.gif') no-repeat;
@@ -66,4 +89,10 @@ body {
   z-index: 10;
   font-family: coolAstroFont;
   font-size: 40px;
+}
+#skills {
+  z-index: 11;
+}
+#aboutme {
+  z-index: 11;
 }
