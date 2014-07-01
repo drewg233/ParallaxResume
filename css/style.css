@@ -69,8 +69,8 @@ body {
   z-index: 9;
 }
 #coin {
-  background: url('../images/mis/coin.gif') no-repeat;
-  background-size: 35px 35px;
+  background: url('../images/mis/Coin.gif') no-repeat;
+  background-size: 65px 65px;
   z-index: 9;
 }
 #text {
@@ -94,5 +94,7 @@ body {
   z-index: 11;
 }
 #aboutme {
+  background: url('../images/mis/aboutmebanner.png') no-repeat;
+  background-size: 330px 70px;
   z-index: 11;
 }
