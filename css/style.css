@@ -98,3 +98,13 @@ body {
   background-size: 330px 70px;
   z-index: 11;
 }
+#greenlights {
+  background: url('../images/mis/greenlight.png') no-repeat;
+  background-size: 149px 97px;
+  z-index: 11;
+}
+#bomb {
+  background: url('../images/mis/bomb.png') no-repeat;
+  background-size: 73px 73px;
+  z-index: 11;
+}
