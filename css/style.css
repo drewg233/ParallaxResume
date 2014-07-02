@@ -98,10 +98,19 @@ body {
   background-size: 330px 70px;
   z-index: 11;
 }
+#aboutmevideo {
+  z-index: 11;
+}
+#aboutmevideobackground {
+  width: 370px;
+  height: 215px;
+  z-index: 10;
+  color: black; 
+}
 #greenlights {
   background: url('../images/mis/greenlight.png') no-repeat;
   background-size: 149px 97px;
-  z-index: 11;
+  z-index: 10;
 }
 #bomb {
   background: url('../images/mis/bomb.png') no-repeat;
