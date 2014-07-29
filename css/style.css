@@ -117,3 +117,9 @@ body {
   background-size: 73px 73px;
   z-index: 11;
 }
+
+#blackbomb {
+  background: url('../images/mis/Mine_Idle.gif') no-repeat;
+  background-size: 73px 73px;
+  z-index: 11;
+}
