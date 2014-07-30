@@ -117,9 +117,18 @@ body {
   background-size: 73px 73px;
   z-index: 11;
 }
-
 #blackbomb {
   background: url('../images/mis/Mine_Idle.gif') no-repeat;
+  background-size: 73px 73px;
+  z-index: 11;
+}
+#someworks {
+  background: url('../images/mis/aboutmebanner.png') no-repeat;
+  background-size: 330px 70px;
+  z-index: 11;
+}
+#heart {
+  background: url('../images/mis/Heart_Beat.gif') no-repeat;
   background-size: 73px 73px;
   z-index: 11;
 }
