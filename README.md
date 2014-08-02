@@ -1,6 +1,8 @@
 # Parallax Resume
 
-This was built using skrollr.js
+This was built using skrollr.js in hopes to make it my portfolio site.
+
+*Still in the works.*
 
 You can view it here: [Click Here](http://drewg233.github.io/ParallaxResume/)
 
